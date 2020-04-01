@@ -1,18 +1,17 @@
-#this is the library we are using (opencv)
+# this is the library we are using (opencv)
 import cv2
-#numpy is a pretty neat library for working with maths stuff without knowing maths
-import numpy as np
 import alglib.hsv_filter as hsv_filter
 
 
-#some debugging stuff
-print (cv2.__version__)
-print ("starting vision")
+# some debugging stuff
+print(cv2.__version__)
+print("starting vision")
 
-#open up the first (0) camera attached, if you have more than one you might need to change this
+# open up the first (0) camera attached, if you have more than one you might
+# need to change this
 cap = cv2.VideoCapture(0)
-cap.set(3,1080)
-cap.set(4,720)
+cap.set(3, 1080)
+cap.set(4, 720)
 
 while(True):
     # Capture frame-by-frame
