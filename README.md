@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- [Python 3.7.x+](https://www.python.org/downloads/)
+- [Python 3.7.x+](https://www.python.org/downloads/) (download the latest version if you don't have it already)
 
 
 ## So what is this *computer vision* thing?
