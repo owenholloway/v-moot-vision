@@ -22,10 +22,7 @@ while(True):
 
     # look for the largest contour in the image
     contours = cv2.findContours(mask.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
-
-    # apply the filter to the frame
-    fitlered_frame = cv2.bitwise_and(frame, frame, mask=mask)
-
+    # draw this contour on the frame so we can see what the computer 'sees'
     cv2.drawContours(frame, contours, -1, (0, 255, 0), 2, 2)
 
     # show the frame that we have captured
