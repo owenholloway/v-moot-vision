@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # this is the library we are using (opencv)
 import cv2
 
